@@ -4,7 +4,8 @@
   "info": {
     "singularName": "landing-page",
     "pluralName": "landing-pages",
-    "displayName": "landingPage"
+    "displayName": "landingPage",
+    "description": ""
   },
   "options": {
     "draftAndPublish": true
@@ -12,12 +13,18 @@
   "pluginOptions": {},
   "attributes": {
     "logo": {
-      "allowedTypes": [
-        "images"
-      ],
       "type": "media",
       "multiple": false,
-      "required": true
+      "required": true,
+      "allowedTypes": [
+        "images"
+      ]
+    },
+    "header": {
+      "displayName": "header",
+      "type": "component",
+      "repeatable": false,
+      "component": "page.header"
     }
   }
 }
