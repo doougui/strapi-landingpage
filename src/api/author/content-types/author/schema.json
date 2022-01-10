@@ -38,6 +38,12 @@
     "description": {
       "type": "text",
       "required": true
+    },
+    "sectionReviews": {
+      "displayName": "sectionReviews",
+      "type": "component",
+      "repeatable": false,
+      "component": "page.section-reviews"
     }
   }
 }
